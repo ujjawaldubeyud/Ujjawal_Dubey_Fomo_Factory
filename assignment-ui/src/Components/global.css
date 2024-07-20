@@ -1,0 +1,94 @@
+body {
+    font-family: 'lato', sans-serif;
+    margin: 0
+}
+
+.header{
+    font-size: 24px;
+    text-align: center;
+    margin: 24px auto 40px auto;
+}
+
+table{
+width: 100%;
+}
+
+.table-row{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.1);
+    margin: 12px;
+    text-align: center;
+    padding: 24px;
+}
+
+.table-header{
+ background-color: #95A5A6;
+}
+
+.table-content{
+    background-color: #FFFFFF;
+}
+
+.change-button {
+    background-color: #95A5A6; 
+    color: white;
+    border: none;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .change-button:hover {
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+    transform: translateY(-3px);
+  }
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content {
+    background-color: white;
+    padding: 4px 12px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    width: 400px;
+  }
+
+  .close-button {
+    background-color: #95A5A6; 
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    margin: 4px;
+    position: relative;
+    bottom: 6px;
+    left: 68%;
+  }
+
+  .radio-button{
+    margin: 4px;
+  }
+  
+  
