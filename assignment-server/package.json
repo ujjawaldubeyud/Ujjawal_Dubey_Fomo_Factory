@@ -1,0 +1,27 @@
+{
+  "name": "assignment-server",
+  "version": "1.0.0",
+  "description": "Assignment with FOMO factory",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "express",
+    "cors",
+    "axios",
+    "server"
+  ],
+  "author": "Ujjawal Dubey",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mongodb": "^6.8.0",
+    "mongoose": "^8.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
