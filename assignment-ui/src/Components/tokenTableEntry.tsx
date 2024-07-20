@@ -38,7 +38,7 @@ const TokenTableEntry = () => {
    const interval = setInterval(() => {
    FetchDataFromMongo();
    SetDataToMongo();
-   }, 150000)
+   }, 3000)
    return () => clearInterval(interval)
   }, []);
 
